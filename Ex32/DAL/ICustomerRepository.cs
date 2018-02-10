@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ex32.DAL
 {
-    interface ICustomerRepository:IDisposable
+    public interface ICustomerRepository:IDisposable
     {
         List<Customers> GetCustomers();
         Customers GetCustomerByID(int Id);
